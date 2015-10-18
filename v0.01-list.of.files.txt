@@ -1,0 +1,212 @@
+1@amd:~/.local/share/vcmi$ tree .
+.
+├── config -> /home/1/vcmi/vcmi-src/config/
+├── Data -> /home/1/vcmi/vcmi-data-src/h3demo/h3demo/Data/
+├── Maps -> /home/1/vcmi/vcmi-data-src/h3demo/h3demo/Maps/
+├── Mods -> /home/1/vcmi/vcmi-src/Mods/
+└── Sprites -> /home/1/vcmi/vcmi-data-src/h3demo/h3demo/Sprites/
+
+5 directories, 0 files
+1@amd:~/.local/share/vcmi$ tree -aCl .
+.
+├── config -> /home/1/vcmi/vcmi-src/config/
+│   ├── artifacts.json
+│   ├── battles_graphics.json
+│   ├── battleStartpos.json
+│   ├── bonuses.json
+│   ├── bonuses_texts.json
+│   ├── buildings5.json
+│   ├── campaignMedia.json
+│   ├── campaign_regions.json
+│   ├── campaignSets.json
+│   ├── commanders.json
+│   ├── creatures
+│   │   ├── castle.json
+│   │   ├── conflux.json
+│   │   ├── dungeon.json
+│   │   ├── fortress.json
+│   │   ├── inferno.json
+│   │   ├── necropolis.json
+│   │   ├── neutral.json
+│   │   ├── rampart.json
+│   │   ├── special.json
+│   │   ├── stronghold.json
+│   │   └── tower.json
+│   ├── defaultMods.json
+│   ├── ERMU_to_picture.json
+│   ├── factions
+│   │   ├── castle.json
+│   │   ├── conflux.json
+│   │   ├── dungeon.json
+│   │   ├── fortress.json
+│   │   ├── inferno.json
+│   │   ├── necropolis.json
+│   │   ├── neutral.json
+│   │   ├── rampart.json
+│   │   ├── stronghold.json
+│   │   └── tower.json
+│   ├── filesystem.json
+│   ├── fonts.json
+│   ├── gameConfig.json
+│   ├── heroClasses.json
+│   ├── heroes
+│   │   ├── castle.json
+│   │   ├── conflux.json
+│   │   ├── dungeon.json
+│   │   ├── fortress.json
+│   │   ├── inferno.json
+│   │   ├── necropolis.json
+│   │   ├── rampart.json
+│   │   ├── special.json
+│   │   ├── stronghold.json
+│   │   └── tower.json
+│   ├── mainmenu.json
+│   ├── mapOverrides.json
+│   ├── NEUTRAL.PAL
+│   ├── objects
+│   │   ├── creatureBanks.json
+│   │   ├── dwellings.json
+│   │   ├── generic.json
+│   │   ├── moddables.json
+│   │   └── rewardable.json
+│   ├── obstacles.json
+│   ├── resolutions.json
+│   ├── resources.json
+│   ├── schemas
+│   │   ├── artifact.json
+│   │   ├── bonus.json
+│   │   ├── creature.json
+│   │   ├── faction.json
+│   │   ├── heroClass.json
+│   │   ├── hero.json
+│   │   ├── mapHeader.json
+│   │   ├── mod.json
+│   │   ├── object.json
+│   │   ├── objectTemplate.json
+│   │   ├── objectType.json
+│   │   ├── settings.json
+│   │   ├── spell.json
+│   │   ├── template.json
+│   │   ├── townBuilding.json
+│   │   ├── townSiege.json
+│   │   └── townStructure.json
+│   ├── spells
+│   │   ├── ability.json
+│   │   ├── adventure.json
+│   │   ├── offensive.json
+│   │   ├── other.json
+│   │   └── timed.json
+│   ├── sp_sounds.json
+│   ├── startres.json
+│   ├── terrains.json
+│   ├── terrainViewPatterns.json
+│   └── translate.json
+├── Data -> /home/1/vcmi/vcmi-data-src/h3demo/h3demo/Data/
+│   ├── H3bitmap.lod
+│   ├── H3sprite.lod
+│   ├── Heroes3.snd
+│   └── video.vid
+├── Maps -> /home/1/vcmi/vcmi-data-src/h3demo/h3demo/Maps/
+│   └── h3min.h3m
+├── Mods -> /home/1/vcmi/vcmi-src/Mods/
+│   └── vcmi
+│       ├── Data
+│       │   ├── questDialog.png
+│       │   ├── s
+│       │   │   ├── std.verm
+│       │   │   └── testy.erm
+│       │   ├── StackQueueLarge.png
+│       │   ├── StackQueueSmall.png
+│       │   └── stackWindow
+│       │       ├── bonus-effects.png
+│       │       ├── button-panel.png
+│       │       ├── commander-abilities.png
+│       │       ├── commander-bg.png
+│       │       ├── icons.png
+│       │       ├── info-panel-0.png
+│       │       ├── info-panel-1.png
+│       │       ├── info-panel-2.png
+│       │       └── spell-effects.png
+│       ├── mod.json
+│       ├── Mods
+│       │   └── defaultTemplates
+│       │       ├── mod.json
+│       │       └── Mods
+│       │           ├── Analogy
+│       │           │   ├── Content
+│       │           │   │   └── config
+│       │           │   │       └── defaultTemplates
+│       │           │   │           └── analogy.json
+│       │           │   └── mod.json
+│       │           ├── Clash of Dragons
+│       │           │   ├── Content
+│       │           │   │   └── config
+│       │           │   │       └── defaultTemplates
+│       │           │   │           └── clashOfDragons.json
+│       │           │   └── mod.json
+│       │           ├── Coldshadows Fantasy
+│       │           │   ├── Content
+│       │           │   │   └── config
+│       │           │   │       └── defaultTemplates
+│       │           │   │           └── coldshadowsFantasy.json
+│       │           │   └── mod.json
+│       │           ├── Golden Ring
+│       │           │   ├── Content
+│       │           │   │   └── config
+│       │           │   │       └── defaultTemplates
+│       │           │   │           └── goldenRing.json
+│       │           │   └── mod.json
+│       │           ├── Jebus Cross
+│       │           │   ├── Content
+│       │           │   │   └── config
+│       │           │   │       └── defaultTemplates
+│       │           │   │           └── jebusCross.json
+│       │           │   └── mod.json
+│       │           └── Upgrade
+│       │               ├── Content
+│       │               │   └── config
+│       │               │       └── defaultTemplates
+│       │               │           └── upgrade.json
+│       │               └── mod.json
+│       └── Sprites
+│           ├── buttons
+│           │   ├── commander.json
+│           │   ├── commanderNormal.png
+│           │   ├── commanderPressed.png
+│           │   ├── resolution.json
+│           │   ├── resolutionNormal.png
+│           │   └── resolutionPressed.png
+│           ├── itpa.json
+│           ├── PortraitsLarge.json
+│           ├── PortraitsSmall.json
+│           └── stackWindow
+│               ├── cancelButton.json
+│               ├── cancel-normal.png
+│               ├── cancel-pressed.png
+│               ├── level-0.png
+│               ├── level-10.png
+│               ├── level-1.png
+│               ├── level-2.png
+│               ├── level-3.png
+│               ├── level-4.png
+│               ├── level-5.png
+│               ├── level-6.png
+│               ├── level-7.png
+│               ├── level-8.png
+│               ├── level-9.png
+│               ├── levels.json
+│               ├── switchModeIcons.json
+│               ├── upgradeButton.json
+│               ├── upgrade-normal.png
+│               └── upgrade-pressed.png
+└── Sprites -> /home/1/vcmi/vcmi-data-src/h3demo/h3demo/Sprites/
+    ├── AH16_.def
+    ├── AH16_E.def
+    ├── AH16_E.msk
+    ├── AH16_.msk
+    ├── AH17_.def
+    ├── AH17_E.def
+    ├── AH17_E.msk
+    └── AH17_.msk
+
+45 directories, 154 files
