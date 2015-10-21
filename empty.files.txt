@@ -3,3 +3,4 @@
 ----------Sprites----------
 agem*.def	- [In game] Main map screen borders
 ABF*.def	- [In game] Hero flag while standing, while riding
+AF*.def	- [In game] Hero flag while standing, while riding
