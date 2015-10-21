@@ -23,9 +23,10 @@ Sample data for VCMI Project. Only data files ready to use in vcmi. There is no 
 
 * VCMI
 * The Battle for Wesnoth
-* Check Licenses file
-
-* Check Licenses file
+* Flare
+* Project Legends
+* OpenGameArt
+Check Licenses file
 
 ### TODO ###
 
