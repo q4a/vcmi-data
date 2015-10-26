@@ -8,7 +8,7 @@ Sample data for VCMI Project. Only data files ready to use in vcmi. There is no 
 
 ### Install and run ###
 
-* Copy folders "Data" and "Maps" from this repo to your vcmi data folder
+* Copy folders "Data", "Maps" and "Sprites" from this repo to your vcmi data folder
 * Copy folders "config" and "Mods" from [vcmi repo](https://github.com/vcmi/vcmi) to the same folder  your vcmi data folder
 * Install WoG mod from vcmilauncher
 * Run vcmi and check current state of project
