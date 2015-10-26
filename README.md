@@ -15,9 +15,8 @@ Sample data for VCMI Project. Only data files ready to use in vcmi. There is no 
 
 ### Current state of project and version history ###
 
-* With just 2 files (PLAYERS.PAL and DiBoxBck.png) and WOG installed, you can run vcmi amd get main screen.
-* 0.01 - running vcmi with h3demo and WOG data. Private)
-
+* 0.01 - running vcmi with sample and WOG data. TODO.
+* 0.005 - running vcmi with h3demo and WOG data. DONE.
 
 ### Art for this project was taken from ###
 
