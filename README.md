@@ -25,7 +25,7 @@ Sample data for VCMI Project. Only data files ready to use in vcmi. There is no 
 * Flare
 * Project Legends
 * OpenGameArt
-* Check Licenses file
+* Check Licenses.txt file
 
 ### TODO ###
 
